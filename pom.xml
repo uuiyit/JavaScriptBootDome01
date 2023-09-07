@@ -10,10 +10,10 @@
     </parent>
 
     <groupId>com.example</groupId>
-    <artifactId>MavenDemo01</artifactId>
+    <artifactId>JavaScriptBootDome01</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>MavenDemo01</name>
-    <description>MavenDemo01</description>
+    <name>JavaScriptBootDome01</name>
+    <description>JavaScriptBootDome01</description>
     <properties>
         <java.version>19</java.version>
     </properties>
