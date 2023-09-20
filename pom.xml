@@ -14,6 +14,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>JavaScriptBootDome01</name>
     <description>JavaScriptBootDome01</description>
+    <packaging>war</packaging>         <!-- 1、声明打包方式为War包 -->
     <properties>
         <java.version>19</java.version>
     </properties>
@@ -98,9 +99,18 @@
             <version>2.6</version>
         </dependency>
 
+       
+        <!-- 2、 声明使用外部的Tomcat服务器 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
 
     </dependencies>
 
+    <!-- 在pom文件中添加Maven打包插件 -->
     <build>
         <plugins>
             <plugin>
