@@ -5,10 +5,10 @@ import javax.persistence.*;
 import java.io.Serializable;
 
 /**
- // * @author mrr
- // * @date 2023/9/25 10:56
- // * @description:
- // */
+  * @author mrr
+  * @date 2023/9/25 10:56
+  * @description:
+ */
 
 @Entity(name = "t_comment")//设置ORM实体类，并指定映射的表名
 public class Discuss implements Serializable {

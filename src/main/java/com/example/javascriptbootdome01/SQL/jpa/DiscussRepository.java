@@ -9,11 +9,10 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 /**
- // * @author mrr
- // * @date 2023/9/25 10:56
- // * @description:
- // */
-
+  * @author mrr
+  * @date 2023/9/25 10:56
+  * @description:
+ */
 public interface DiscussRepository extends JpaRepository<Discuss, Integer> {
     //1.查询author非空的Discuss评论合集
     public List<Discuss> findByAuthorNotNull();
